@@ -1,4 +1,7 @@
 
+$( document ).ready(function() {
+  $('#modal-aviso').modal('show')
+});
 $('#toggle').click(function() {
   $(this).toggleClass('active');
   $('#overlay').toggleClass('open');
